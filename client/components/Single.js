@@ -1,11 +1,14 @@
 import React from 'react';
-import { Link } from 'react-router';
+import Photo from './Photo';
 
 const Single = React.createClass({
   render() {
+    const i = this.props.posts.findIndex((post) => post.code === this.props.params.postId); // index of the post
+    const post = this.props.posts[i];
+
     return (
       <div className="single-photo">
-        SINGLE
+        <Photo i={i} post ={post} {...this.props} />
       </div>
     )
   }
