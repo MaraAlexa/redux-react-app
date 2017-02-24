@@ -47,9 +47,10 @@
     "webpack-hot-middleware": "^2.10.0"
   },
   "devDependencies": {
-   "expect": "^1.18.0",
-   "expect-jsx": "^2.5.1",
-   "mocha": "^2.4.5",
-   "react-addons-test-utils": "^15.0.2"
- }
+    "expect": "^1.18.0",
+    "expect-jsx": "^2.5.1",
+    "image-webpack-loader": "^3.2.0",
+    "mocha": "^2.4.5",
+    "react-addons-test-utils": "^15.0.2"
+  }
 }

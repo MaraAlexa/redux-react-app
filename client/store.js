@@ -12,7 +12,7 @@ import posts from './data/posts';
 // create an object for the default data
 const defaultState = {
   posts: posts,
-  comment: comments
+  comments: comments
 };
 
 // make the store
